@@ -134,6 +134,10 @@ public class Recipe {
         return this;
     }
 
+    public void deleteIngredient(Ingredient ingredient) {
+        this.ingredients.remove(ingredient);
+    }
+
     public Difficulty getDifficulty() {
         return difficulty;
     }
